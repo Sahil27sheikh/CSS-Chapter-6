@@ -3,7 +3,7 @@ In this repository i have added some of my CSS<b> "Flex Box with there all prope
 "Folat property", "Order property", "Clear property" and "Four practice sets with home
 pages using flex box and float propertys"</b> knowledge like this-
 
-&#10148; <b style= "font-size: 20px">Flex box in CSS:-</b>
+&#10148; <b style= "font-size: 30px">Flex box in CSS:-</b>
         &#x273A; Display flex:
         &#x273A; Flex direction:
                  &#x2022; flex-direction: row;
@@ -102,15 +102,13 @@ pages using flex box and float propertys"</b> knowledge like this-
                  &#x2022; float: inline-start;
                  &#x2022; float: inline-end;
                  &#x2022; float: none;<hr>
-&#10148; <b style= "font-size: 20px">Clear property in CSS:-</b>
+&#10148; <b style= "font-size: 30px">Clear property in CSS:-</b>
         &#x2022; clear: none;
         &#x2022; clear: left;
         &#x2022; clear: right;
         &#x2022; clear: inline-start;
         &#x2022; clear: inline-end; 
-        &#x2022; clear: both; <hr>
-
-
+        &#x2022; clear: both; <hr> 
 &#10148; Practice set 1: in pr1 i have solve the quetion <b>"Creat a layout using float
 with navigation bar contain "Home", "About", "Serviece", "Contact Us" and main content
 with two boxes which have equally diveded on screen. </b> <hr>  
