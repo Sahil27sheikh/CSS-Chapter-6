@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float in css</title>
+    <style>
+        .box1{
+            height: 30vh;
+            width: 30vw;
+            background-color: darkslategrey;
+            color: white;
+            float: left;  /* float property is use to float the element only left or right */
+        }
+        .box2{
+            height: 30vh;
+            width: 30vw;
+            background-color: rgb(252, 26, 6);
+            color: white;
+            float: right;
+            clear: both; /* clear is use for clear the float of the element to right, left and both sides. hence no any element are float at the line of clear float element. */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">Sahil</div>
+    <div class="box2">Shahid</div>
+</body>
+</html>

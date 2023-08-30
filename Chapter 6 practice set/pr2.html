@@ -1,0 +1,68 @@
+<!-- Creat a layout of your choice using flex. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+            display: inline;
+            padding: 0 20px;
+            font-size: 2vw;
+            font-weight: bolder;
+        }
+        ul{
+            padding: 35px;
+        }
+        header{
+            background-color: crimson;
+            
+        }
+        .right{
+            background-color: cornflowerblue;
+            height: 85vh;
+            width: 50vw; 
+            font-weight:bold;
+            text-align: center;
+            padding-top: 10vh;
+
+        }
+        .left{
+            background-color: rgb(225, 44, 198);
+            height: 85vh;
+            width: 50vw; 
+            font-weight:bold;
+            text-align: center;
+            padding-top: 10vh;
+
+        }
+        .container{
+            display: flex;
+            justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Serviece</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt aut cum omnis dolores enim tempora? Velit ullam optio perferendis commodi dignissimos similique hic officiis, tempore ex maxime delectus nihil possimus rem quo suscipit consectetur?</div><div class="left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam veritatis corporis incidunt maxime soluta perspiciatis quos, ipsum reprehenderit magnam. Exercitationem atque veniam perspiciatis commodi sunt, corporis nihil recusandae. Voluptas amet fugiat suscipit eius ex!</div>
+        </div>
+    </main>
+</body>
+</html>

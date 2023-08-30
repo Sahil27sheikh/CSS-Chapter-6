@@ -1,0 +1,79 @@
+<!-- Flex Box is most important in css -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 200vh;
+            background-color: aqua;
+            display: flex;
+            flex-direction: row; /* flex-direction is use for align the direction of the flex box. there are four direction of the flex box row, column, row-reverse and column-reverce. */
+            flex-wrap: wrap; /* flex-wrap is use to wrap the elements automatically by the size of the screen. there are also four direction of the flex wrap theres are, wrap, no wrap and wrap-reverce. */
+            justify-content: center; /* justify content is use to align content in the flex box. so meny type of the justify content these are show the uses and name in MDN reference. */
+            align-items: center; /*align items is use for align items of the flex box. if you are wrap the frex box the content of the flex box is get the extra spaces between them. there are so meny types of the align items. you can see this on MDN reference.
+            align-content: center;  align items is use for align items of the flex box. if you are wrap the frex box the content of the flex box is not get the extra spaces between them. there are so meny types of the align content. you can see this on MDN reference.*/
+            /* in align items and align content You can use only one of them */
+            /* These all property is use for flex box  */
+        }
+        .box1{
+            height: 345px;
+            width: 345px;
+            background-color: darkslategrey;
+            color: white; 
+            text-align: center;
+            border: 2px solid black; 
+            order: 2; /* order is use only on flex items. this is define the order of the items in flex box. they are align by the value of the order items. */
+            align-self: baseline;
+            
+        }
+        .box2{
+            height: 345px;
+            width: 345px;
+            background-color: rgb(252, 26, 6);
+            color: white; 
+            text-align: center;
+            border: 2px solid black;  
+            flex-grow: 10; /* flex-grow is use to grow the height and width of the item of the flex box. it is depend on the flex-direction of the flex box. */
+        }
+        .box3{
+            height: 345px;
+            width: 345px;
+            background-color: rgb(6, 178, 252);
+            color: rgb(14, 13, 13); 
+            text-align: center;
+            border: 2px solid black;
+            flex-shrink: 4; /* it is work only when the item of the flex box is overflow form the flexbox. it is shrink the item. */
+        }
+        .box4{
+            height: 345px;
+            width: 345px;
+            background-color: rgb(6, 252, 22);
+            color: rgb(8, 8, 8); 
+            text-align: center;
+            border: 2px solid black;
+            align-self: flex-end; /* flex align is use to align the items to break the flex box rules and align self to the other position flex end or flex start. it is not be work when the flex box contain align-content property. it is work when flex box contain align-items and other propertys. */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+
+    </div>
+</body>
+</html>
+
+<!-- there are two axis is present in flex box. first the main axis this is align horizantally always in flex box. and the second is cross axis align in vertically but there is no important that the cross axis is always align vertically. becouse it is always depend apon the flex direction. -->
+
+

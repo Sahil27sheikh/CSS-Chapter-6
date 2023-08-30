@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>pr4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar .image img {
+            display: inline-block;
+            height: 80px;
+            width: 80px;
+            padding-left: 11vh;
+            padding-top: 3vh;
+
+        }
+
+        li {
+            display: inline-block;
+            font-size: 2vw;
+            font-weight: bolder;
+            padding-left: 20vh;
+        }
+
+        .name {
+            display: inline-block;
+            font-size: 3vw;
+            font-weight: bold;
+            padding-left: 12vh;
+            font-family: 'Acme', sans-serif;
+
+        }
+
+        .navbar .cart img {
+            height: 15vh;
+            position: absolute;
+            left: 81vh;
+            top: 3vh;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        ul {
+            padding: 7vh 10vh;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+
+        }
+
+        .background {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url(sunset-1373171_640.jpg);
+            opacity: 0.90;
+            background-repeat: no-repeat;
+            height: 70vh;
+            background-size: 100vw; 
+        }
+
+        p {
+            display: inline;
+            padding: 20px;
+            color: #050505;
+            font: 18px Arial, sans-serif;
+            padding: 5vh 40vw;
+        }
+
+        .box img {
+            display: inline-block;
+            align-self: center;
+            padding-inline: 10vh;
+            padding: 10vh;
+
+
+        }
+
+        .box {
+            display: flex;
+            position: relative;
+            background-color: coral;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="image"><img src="man1.png" alt="man1">
+                <div class="name">
+                    <h1>YeS cArT</h1>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="carts.png" alt="carts">
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Serviece</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="background">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, quam harum vitae dolor quis optio commodi
+                debitis magni enim numquam! Excepturi accusamus nemo dolorum corporis harum magnam incidunt, rem
+                provident eveniet laudantium iste tenetur maxime sequi possimus sit ullam ipsum saepe quo earum
+                obcaecati autem assumenda et quia facilis? Blanditiis.
+            </p>
+        </div>
+        <div class="box">
+            <img src="man1.png" alt="man">
+            <img src="man1.png" alt="man">
+            <img src="man1.png" alt="man">
+        </div>
+    </main>
+</body>
+
+</html>
