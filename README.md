@@ -3,18 +3,18 @@ In this repository i have added some of my CSS<b> "Flex Box with there all prope
 "Folat property", "Order property", "Clear property" and "Four practice sets with home
 pages using flex box and float propertys"</b> knowledge like this-
 
-&#10148; <h1><b>Flex box in CSS:-</b></h1>
-        &#x273A; <h3><b>Display flex:</b></h3>
-        &#x273A; <h3><b>Flex direction:</b></h3>
+<h1><b>Flex box in CSS:-</b></h1>
+        &#10148; <b>Display flex:</b>
+        &#10148; <b>Flex direction:</b>
                  &#x2022; flex-direction: row;
                  &#x2022; flex-direction: row-reverse;
                  &#x2022; flex-direction: column;
                  &#x2022; flex-direction: column-reverse;
-        &#x273A; <h3><b>Flex wrap:</b></h3>
+        &#10148; <b>Flex wrap:</b>
                  &#x2022; flex-wrap: wrap; 
                  &#x2022; flex-wrap: nowrap; 
                  &#x2022; flex-wrap: wrap-reverse; 
-        &#x273A; <h3><b>Justify content:</b></h3>
+        &#10148; <b>Justify content:</b>
                  &#x2022; justify-content: center;  
                  &#x2022; justify-content: left;  
                  &#x2022; justify-content: right;  
@@ -26,7 +26,7 @@ pages using flex box and float propertys"</b> knowledge like this-
                  &#x2022; justify-content: space-between;  
                  &#x2022; justify-content: space-around;  
                  &#x2022; justify-content: space-evenly;  
-        &#x273A; <h3><b>Align items:</b></h3>
+        &#10148; <b>Align items:</b>
                  &#x2022; align-items: center;  
                  &#x2022; align-items: start;  
                  &#x2022; align-items: end;  
@@ -41,7 +41,7 @@ pages using flex box and float propertys"</b> knowledge like this-
                  &#x2022; align-items: last baseline; 
                  &#x2022; align-items: safe center;
                  &#x2022; align-items: unsafe center;
-        &#x273A; <h3><b>Align content:</b></h3>
+        &#10148; <b>Align content:</b>
                  &#x2022; align-content: center;  
                  &#x2022; align-content: start;  
                  &#x2022; align-content: end;  
@@ -63,13 +63,13 @@ pages using flex box and float propertys"</b> knowledge like this-
                  &#x2022; align-content: space-between;  
                  &#x2022; align-content: space-around;  
                  &#x2022; align-content: space-evenly;
-        &#x273A; <h3><b>Order property in flex box:</b></h3>
+        &#10148; <b>Order property in flex box:</b>
                  Example-
                  &#x2022; order: 1; 
                  &#x2022; order: -2; 
                  &#x2022; order: 5; 
                  &#x2022; order: -1; 
-        &#x273A; <h3><b>Align self:</b></h3>
+        &#10148; <b>Align self:</b>
                  &#x2022; align-self: auto;  
                  &#x2022; align-self: center;  
                  &#x2022; align-self: start;  
@@ -88,21 +88,21 @@ pages using flex box and float propertys"</b> knowledge like this-
                  &#x2022; align-self: baseline;
                  &#x2022; align-self: first baseline;
                  &#x2022; align-self: last baseline;  
-        &#x273A; <h3><b>Flex grow:</b></h3>
+        &#10148; <b>Flex grow:</b>
                  &#x2022; flex-grow: 6;  
                  &#x2022; flex-grow: 0.5;  
                  &#x2022; flex-grow: 2;  
-        &#x273A; <h3><b>Flex shrink:</b></h3>
+        &#10148; <b>Flex shrink:</b>
                  &#x2022; flex-shrink: 5;  
                  &#x2022; flex-shrink: 0.2;  
                  &#x2022; flex-shrink: 8;  
-        &#x273A; <h3><b>Float:</b></h3>
+        &#10148; <b>Float:</b>
                  &#x2022; float: left;
                  &#x2022; float: right;
                  &#x2022; float: inline-start;
                  &#x2022; float: inline-end;
                  &#x2022; float: none;<hr>
-&#10148; <h1><b>Clear property in CSS:-</b></h1>
+<h1><b>Clear property in CSS:-</b></h1>
         &#x2022; clear: none;
         &#x2022; clear: left;
         &#x2022; clear: right;
