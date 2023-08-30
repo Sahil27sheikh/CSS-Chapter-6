@@ -64,7 +64,7 @@ pages using flex box and float propertys"</b> knowledge like this-
                  &#x2022; align-content: space-around;  
                  &#x2022; align-content: space-evenly;
         &#x273A; <h3><b>Order property in flex box:</b></h3>
-                          Example-
+                 Example-
                  &#x2022; order: 1; 
                  &#x2022; order: -2; 
                  &#x2022; order: 5; 
